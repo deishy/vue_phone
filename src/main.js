@@ -3,13 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import 'lib-flexible'
+import Vant from 'vant';
+import 'vant/lib/index.css';
+import Player from 'zw-player'
 Vue.config.productionTip = false
-
-/* eslint-disable no-new */
+Vue.use(Vant)
+    /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  components: { App },
-  template: '<App/>'
+    el: '#app',
+    router,
+    components: { App, Player },
+    template: '<App/>'
 })

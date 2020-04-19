@@ -1,16 +1,17 @@
 <template>
-  <div class="hello">
-   
+  <div class="video">
+   视频
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'video',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      
     }
   }
 }
 </script>
+

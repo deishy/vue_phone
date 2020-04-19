@@ -1,0 +1,27 @@
+.index {
+    position: absolute;
+    top: 0px;
+    height: 806px;
+    width: 375px;
+    background-image: url(../assets/index_background.jpg);
+    background-size: 375px 806px;
+}
+
+#index_ba {
+    position: absolute;
+    bottom: 0px;
+    width: 375px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.index_head {
+    position: absolute;
+    top: 50px;
+    font-size: 20px;
+    width: 375px;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    z-index: 10;
+}
