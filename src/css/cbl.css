@@ -1,6 +1,6 @@
 .cbl_div_cbl {
     position: fixed;
-    z-index: 10;
+    z-index: 15;
 }
 
 .cbl_xx_div {
@@ -8,4 +8,11 @@
     top: 0px;
     left: 0px;
     z-index: 10;
+}
+
+.music {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 11;
 }

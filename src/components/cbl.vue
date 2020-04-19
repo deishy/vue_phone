@@ -3,6 +3,7 @@
     <div class="cbl_xx_div">
       <van-icon name="bars" size="40px" @click="showPopup" />
     </div>
+    <music />
     <div class="cbl_div_cbl">
       <van-popup v-model="show" round position="left" style="{ height: '20%' }">
         <van-sidebar v-model="activeKey" @change="onChange">
@@ -21,10 +22,14 @@ import css from "../css/cbl.css";
 import Vue from "vue";
 import { Sidebar, SidebarItem } from "vant";
 import { Notify } from "vant";
+import music from "./music";
 Vue.use(Sidebar);
 Vue.use(SidebarItem);
 export default {
   name: "cbl",
+  components: {
+    music
+  },
   data() {
     return {
       activeKey: 0,

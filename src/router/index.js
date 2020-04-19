@@ -18,12 +18,12 @@ export default new Router({
         name: 'book',
         component: book,
     }, {
-        path: '/music',
-        name: 'music',
-        component: music,
-    }, {
         path: '/video',
         name: 'video',
         component: video,
+    }, {
+        path: '/index',
+        name: 'index',
+        component: index,
     }]
 })

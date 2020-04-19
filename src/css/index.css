@@ -25,3 +25,18 @@
     text-align: center;
     z-index: 10;
 }
+
+.index_title_pic1 {
+    position: absolute;
+    top: 120px;
+    z-index: 11;
+    font-size: 20px;
+}
+
+.index_title_pic2 {
+    position: absolute;
+    right: 0px;
+    top: 230px;
+    z-index: 11;
+    font-size: 20px;
+}
