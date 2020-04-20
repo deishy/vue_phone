@@ -1,16 +1,14 @@
 <template>
-  <div class="book">
-   文章
-  </div>
+  <div class="book"></div>
 </template>
 
 <script>
 export default {
-  name: 'book',
-  data () {
-    return {
-      
-    }
+  name: "book",
+  data() {
+    return {};
   }
-}
+};
 </script>
+<style scoped>
+</style>

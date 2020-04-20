@@ -7,12 +7,24 @@ import 'lib-flexible'
 import Vant from 'vant'
 import 'vant/lib/index.css'
 import vueAplayer from 'vue-aplayer'
+import Vuex from 'vuex'
 
 Vue.config.productionTip = false
-Vue.use(Vant)
+Vue.use(Vant, Vuex)
 new Vue({
     el: '#app',
     router,
     components: { App, vueAplayer },
     template: '<App/>'
+})
+
+new Vuex.Store({
+    state: {
+        count: 0
+    },
+    mutations: {
+        increment(state) {
+            state.count++
+        }
+    }
 })
