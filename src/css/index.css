@@ -13,17 +13,18 @@
 #index_ba {
     height: 110px;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.3);
+    background: url(../assets/index_background2.jpg) no-repeat center;
     color: white;
     padding: 0 40px;
     overflow: hidden;
 }
 
 .index_head {
+    position: relative;
+    color: white;
     left: 0;
-    top: 50px;
-    padding-top: 50px;
-    font-size: 20px;
+    top: 150px;
+    font-size: 36px;
     background-color: rgba(0, 0, 0, 0);
     text-align: center;
     z-index: 10;

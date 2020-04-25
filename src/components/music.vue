@@ -1,12 +1,12 @@
 <template>
   <div class="music">
-    <aplayer :autoplay="videoUpload.autoplay" :mini="videoUpload.mini" :music="videoUpload.music"></aplayer>
+    <aplayer :autoplay="videoUpload.autoplay" :mini="videoUpload.mini" :music="videoUpload.music" style=""></aplayer>
   </div>
 </template>
 
 <script>
 import aplayer from "vue-aplayer";
-
+import css from "../css/music.css"
 export default {
   name: "music",
   components: {
@@ -23,9 +23,8 @@ export default {
         music: {
           title: "dieshy",
           author: "dieshy",
-          pic: "https://deishy.oss-cn-beijing.aliyuncs.com/music1.jpg",
-          url:
-            "https://deishy.oss-cn-beijing.aliyuncs.com/%E7%94%B5%E9%B8%9F%E4%B8%AA%E7%81%AF%E6%B3%A1%20-%20Yellow%EF%BC%88%E7%BF%BB%E8%87%AA%20%E6%9C%89%E6%A9%9F%E9%85%B8%EF%BC%89.mp3",
+          pic: "https://deishy-public.oss-cn-beijing.aliyuncs.com/%E6%9E%97%E5%AD%90%E7%A5%A5.jpg",
+          url:"https://deishy-public.oss-cn-beijing.aliyuncs.com/%E6%95%A2%E7%88%B1%E6%95%A2%E5%81%9A.mp3",
           lrc: "[00:00.00]lrc here\n[00:01.00]aplayer"
         }
       }
@@ -33,6 +32,3 @@ export default {
   }
 };
 </script>
-
-<style >
-</style>

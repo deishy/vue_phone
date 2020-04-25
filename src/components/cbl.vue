@@ -18,7 +18,6 @@
 </template>
 
 <script>
-import css from "../css/cbl.css";
 import Vue from "vue";
 import { Sidebar, SidebarItem } from "vant";
 import { Notify } from "vant";
@@ -65,3 +64,6 @@ export default {
   }
 };
 </script>
+<style lang="sass" scoped>
+@import '../css/cbl2.scss';
+</style>

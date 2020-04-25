@@ -7,7 +7,6 @@
 
 <script>
 import cbl from "./components/cbl";
-
 export default {
   name: "App",
   components: {

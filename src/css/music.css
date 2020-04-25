@@ -1,3 +1,9 @@
-.aplayer .aplayer-narrow {
-    height: 66px !important;
+.aplayer.aplayer-narrow {
+    border-radius: 50%;
+}
+
+.aplayer-float.aplayer.aplayer-pic {
+    position: relative;
+    top: 5px;
+    width: 100px !important
 }

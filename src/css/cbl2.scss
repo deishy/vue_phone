@@ -1,0 +1,62 @@
+.van-sidebar-item {
+    border-top: 0.04rem solid white;
+    display: block;
+    box-sizing: border-box;
+    padding: 0.266667rem 0.16rem 0.266667rem 0.106667rem;
+    overflow: hidden;
+    color: #323233;
+    font-size: 0.4rem;
+    line-height: 1rem;
+    word-wrap: break-word;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    height: 1.7rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.van-popup .van-sidebar {
+    background-color: #888888;
+    height: 6.7rem;
+    width: 1.4rem;
+}
+
+.van-sidebar-item--select {
+    background-color: rgba(0, 0, 0, 0);
+    height: 1.7rem;
+}
+
+i.van-icon.van-icon-bars {
+    color: #888888;
+    font-size: 1.5rem !important;
+}
+
+.van-popup--left.van-popup--round {
+    border-radius: 0 0.266667rem 0.266667rem 0;
+    border-bottom: 0.044rem solid white;
+    border-right: 0.044rem solid white;
+}
+
+.cbl_xx_div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+
+.music {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 11;
+}
+
+.van-icon {
+    width: 66px;
+    height: 66px;
+}
+
+.cbl_div_cbl {
+    position: fixed;
+    z-index: 15;
+}
